@@ -1,0 +1,13 @@
+{
+  "name": "todoib1",
+  "type": "ui-elements",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/todoib1",
+    "ssh": "git@github.com:nikhilvneoito/todoib1.git"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
